@@ -3,6 +3,8 @@ Hands on to ReactJS.
 I created This application for My portfolio using ReactJS, Reactstrap, Bootstrap
 
 Preview of my Application
+OR
+Live Preview here: https://sumairq18.github.io/myportfolio-reactjs/
 
 ![alt text](https://github.com/sumairq18/myportfolio-reactjs/blob/master/src/img/full%20page.png)
 
