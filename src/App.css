@@ -53,11 +53,17 @@ body{
 }
 .EducationContainer{
   margin-top: 30px;
-  height: calc(100vh);
 }
 .cards{
   height: calc(100vh - 40%);
 }
 .sectionHeading{
   margin: 20px;
+}
+#WorkExperience{
+  margin-top: 72px;
+  padding-top: 56px;
+}
+#Education{
+  padding-top: 56px;
 }

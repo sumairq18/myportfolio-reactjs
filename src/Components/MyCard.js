@@ -18,7 +18,7 @@ const MyCard = (props) => {
         <Image width="100%" src={props.item[0].cardImg} alt="Card image cap" thumbnail  />
         <CardBody>
           <CardText>{props.item[0].cardText}</CardText>
-          <CardLink href={props.item[2].webLink}>Visit website</CardLink>
+          <CardLink href={props.item[0].webLink}>Visit website</CardLink>
         </CardBody>
       </Card>
       </Col>
@@ -31,7 +31,7 @@ const MyCard = (props) => {
         <Image width="100%" src={props.item[1].cardImg} alt="Card image cap" thumbnail />
         <CardBody>
           <CardText>{props.item[1].cardText}</CardText>
-          <CardLink href={props.item[2].webLink}>Visit website</CardLink>
+          <CardLink href={props.item[1].webLink}>Visit website</CardLink>
         </CardBody>
       </Card>
       </Col>

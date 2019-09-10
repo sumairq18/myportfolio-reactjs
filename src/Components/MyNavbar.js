@@ -30,18 +30,18 @@ export default class myNavBar extends React.Component {
     return (
       <div>
         <Navbar color="light" light expand="md" fixed="top">
-          <NavbarBrand href="/">Sumair Qasim Ali</NavbarBrand>
+          <NavbarBrand href="">Sumair Qasim Ali</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="">Home</NavLink>
+                <NavLink href="#Home">Home</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#Education"><i className=''></i>Education</NavLink>
+                <NavLink href="#Education">Education</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#WorkExerience">Work Experience</NavLink>
+                <NavLink href="#WorkExperience">Work Experience</NavLink>
               </NavItem>
               {/* <NavItem>
                 <NavLink href="">Interests</NavLink>

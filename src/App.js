@@ -13,7 +13,7 @@ const items = [
     cardTitle: 'Alyabad Community School',
     cardSubtitle: 'Karachi, Pakistan',
     cardText: 'Completed Matriculation in 2012',
-    webLink: '#',
+    webLink: '',
   },
   {
     cardImg: require('./img/college.jpg'),
@@ -38,7 +38,7 @@ function App() {
         <MyNavBar />
       </div>
       <Container className='Home'>
-        <Row className='HomeRow'>
+        <Row id='Home' className='HomeRow'>
           <Col>
             <img src={require('./img/avatar.png')} className='avatar col-xs-6'></img>
           </Col>
@@ -49,15 +49,15 @@ function App() {
         </Row>
       </Container>
       <div id='Education'>
-      <h2 className='sectionHeading' center>Education</h2>
-      <Container className='EducationContainer'>
-      <MyCard item={items} >
-      </MyCard>
-      </Container>
+        <h2 className='sectionHeading' center>Education</h2>
+        <Container className='EducationContainer'>
+          <MyCard item={items} >
+          </MyCard>
+        </Container>
       </div>
-      <Container id="WorkExerience" className='ExperienceContainer'>
-      <h2 className='sectionHeading' center>Work Experience</h2>
-      <Timeline></Timeline>
+      <Container id="WorkExperience" className='ExperienceContainer'>
+        <h2 className='sectionHeading' center>Work Experience</h2>
+        <Timeline></Timeline>
       </Container>
     </div>
   );
