@@ -1,0 +1,11 @@
+.carousel-image{
+    height: 500px;
+}
+.quoteCarousel{
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+.topNav{
+    position: fixed;
+    top: 0;
+}
