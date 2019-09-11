@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9e4116fb04db691c989fb3205a5c398e",
+    "revision": "fd1c217679c33c3bc07c5e21c799bdef",
     "url": "/myportfolio-reactjs/index.html"
   },
   {
-    "revision": "2e0b18a1653fe1e771a6",
+    "revision": "1cefd69709bb06fba7d9",
     "url": "/myportfolio-reactjs/static/css/2.266e55a5.chunk.css"
   },
   {
-    "revision": "aaaae07283304d25d0d8",
-    "url": "/myportfolio-reactjs/static/css/main.246b00fc.chunk.css"
+    "revision": "cfcd6e3fe454cfe81a69",
+    "url": "/myportfolio-reactjs/static/css/main.53745cf9.chunk.css"
   },
   {
-    "revision": "2e0b18a1653fe1e771a6",
-    "url": "/myportfolio-reactjs/static/js/2.6cf24a68.chunk.js"
+    "revision": "1cefd69709bb06fba7d9",
+    "url": "/myportfolio-reactjs/static/js/2.71100177.chunk.js"
   },
   {
-    "revision": "aaaae07283304d25d0d8",
-    "url": "/myportfolio-reactjs/static/js/main.df278d92.chunk.js"
+    "revision": "cfcd6e3fe454cfe81a69",
+    "url": "/myportfolio-reactjs/static/js/main.98c94a8f.chunk.js"
   },
   {
     "revision": "a0b0f4c5546082a83c5d",
@@ -44,8 +44,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/myportfolio-reactjs/static/media/college.a9934bbe.jpg"
   },
   {
+    "revision": "79fc50dd8344b8d66928aea92779eee5",
+    "url": "/myportfolio-reactjs/static/media/reading.79fc50dd.jpg"
+  },
+  {
     "revision": "cd762e5eecb5a4cb72c5a0024d6cf7a9",
     "url": "/myportfolio-reactjs/static/media/school.cd762e5e.jpg"
+  },
+  {
+    "revision": "432e0156f762621637dfd09ba56450bb",
+    "url": "/myportfolio-reactjs/static/media/travel.432e0156.jpg"
+  },
+  {
+    "revision": "30c0ef57882454a0419a348088aa2306",
+    "url": "/myportfolio-reactjs/static/media/tvshows.30c0ef57.jpg"
   },
   {
     "revision": "dc35ab30208ced3455d811392fbc2ca2",
