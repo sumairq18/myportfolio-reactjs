@@ -1,6 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css';
+import 'App.css';
 import { Container, Row, Col } from 'reactstrap';
 import  {
   MyNavBar,
@@ -9,7 +9,7 @@ import  {
   Timeline,
   Section,
   FooterPage
-} from './Components'
+} from 'Components'
 
 const items = [
   {
