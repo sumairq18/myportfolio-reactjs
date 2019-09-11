@@ -18,6 +18,9 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.parallax{
+  height: calc(100vh);
+}
 
 .App-link {
   color: #61dafb;
@@ -36,9 +39,8 @@
   top: 30%;
 }
 .Home{
-  background-color: #253C78;
   max-width: 100%;
-  color: #C9DDFF;
+  color: #fff;
   height: calc(100vh);
 }
 .HomeRow{
@@ -59,6 +61,7 @@ body{
 }
 .sectionHeading{
   margin: 20px;
+  color: #fff;
 }
 #WorkExperience{
   margin-top: 72px;
@@ -66,4 +69,7 @@ body{
 }
 #Education{
   padding-top: 56px;
+}
+.footerpage{
+  background-color: aliceblue;
 }
