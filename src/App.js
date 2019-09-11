@@ -6,6 +6,7 @@ import { Container, Row, Col } from 'reactstrap';
 import MyCarousel from './Components/MyCarousel';
 import MyCard from './Components/MyCard';
 import Timeline from './Components/Timeline/Timeline';
+import Section from './Components/BlogSection/Section';
 
 const items = [
   {
@@ -58,6 +59,9 @@ function App() {
       <Container id="WorkExperience" className='ExperienceContainer'>
         <h2 className='sectionHeading' center>Work Experience</h2>
         <Timeline></Timeline>
+      </Container>
+      <Container>
+      <Section></Section>
       </Container>
     </div>
   );

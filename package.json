@@ -1,10 +1,11 @@
 {
   "name": "testproject",
-  "homepage":"https://sumairq18.github.io/myportfolio-reactjs",
+  "homepage": "https://sumairq18.github.io/myportfolio-reactjs",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "bootstrap": "^4.3.1",
+    "mdbreact": "^4.19.2",
     "react": "^16.9.0",
     "react-bootstrap": "^1.0.0-beta.12",
     "react-dom": "^16.9.0",
@@ -33,5 +34,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }  
+  }
 }

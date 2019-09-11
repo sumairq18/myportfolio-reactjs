@@ -43,9 +43,9 @@ export default class myNavBar extends React.Component {
               <NavItem>
                 <NavLink href="#WorkExperience">Work Experience</NavLink>
               </NavItem>
-              {/* <NavItem>
-                <NavLink href="">Interests</NavLink>
-              </NavItem> */}
+              <NavItem>
+                <NavLink href="#Interests">Interests</NavLink>
+              </NavItem>
               <NavItem>
                 <NavLink href="https://github.com/sumairq18/">GitHub</NavLink>
               </NavItem>

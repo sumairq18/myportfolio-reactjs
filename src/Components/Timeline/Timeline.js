@@ -11,7 +11,7 @@ const timelineData = [
         duration: 'July 02, 2018 till August 01, 2019',
         category: {
             tag: 'asp.net mvc, sql server',
-            color: '#018f69'
+            color: '#231651'
         },
         link: {
             url:
@@ -27,7 +27,7 @@ const timelineData = [
         duration: 'August 02, 2018 till today',
         category: {
             tag: '.net, universe, react, PICK BASIC',
-            color: '#018f69'
+            color: '#4DCCBD'
         },
         link: {
             url:
@@ -43,7 +43,7 @@ const timelineData = [
         duration: 'April 15, 2019 till today',
         category: {
             tag: 'HTML, css, javascript jquery',
-            color: '#018f69'
+            color: '#2374AB'
         },
         link: {
             url:

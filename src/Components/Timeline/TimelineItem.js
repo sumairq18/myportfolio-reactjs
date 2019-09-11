@@ -1,5 +1,5 @@
 import '../../style/Timeline.css';
-import React, { Component } from 'react';
+import React from 'react';
 
 const TimelineItem = ({ data }) => {
   return (
