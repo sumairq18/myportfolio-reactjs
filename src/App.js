@@ -1,12 +1,15 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import MyNavBar from './Components/MyNavbar';
 import { Container, Row, Col } from 'reactstrap';
-import MyCarousel from './Components/MyCarousel';
-import MyCard from './Components/MyCard';
-import Timeline from './Components/Timeline/Timeline';
-import Section from './Components/BlogSection/Section';
+import  {
+  MyNavBar,
+  MyCarousel,
+  MyCard,
+  Timeline,
+  Section,
+  FooterPage
+} from './Components'
 
 const items = [
   {
@@ -60,9 +63,10 @@ function App() {
         <h2 className='sectionHeading' center>Work Experience</h2>
         <Timeline></Timeline>
       </Container>
-      <Container>
+      <Container id='Interests'>
       <Section></Section>
       </Container>
+      <FooterPage></FooterPage>
     </div>
   );
 }
